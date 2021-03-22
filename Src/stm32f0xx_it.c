@@ -133,7 +133,7 @@ void USB_IRQHandler(void)
   /* USER CODE BEGIN USB_IRQn 0 */
 
   /* USER CODE END USB_IRQn 0 */
-  HAL_PCD_IRQHandler(&hpcd_USB_FS);
+  //HAL_PCD_IRQHandler(&hpcd_USB_FS);
   /* USER CODE BEGIN USB_IRQn 1 */
 
   /* USER CODE END USB_IRQn 1 */
